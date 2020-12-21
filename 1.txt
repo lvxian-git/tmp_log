@@ -1,0 +1,1146 @@
+[  708.557433] init: Untracked pid 24397 exited with status 0
+[  708.568710] type=1400 audit(1608520174.131:6626): avc: denied { call } for comm="Binder:24253_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  708.598524] ath10k_snoc 18800000.wifi: received chan info event without a scan request, ignoring
+[  708.669141] type=1400 audit(1608520174.231:6627): avc: denied { call } for comm="Binder:24253_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  708.769674] type=1400 audit(1608520174.331:6628): avc: denied { call } for comm="Binder:24253_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  708.970455] audit: audit_lost=3295 audit_rate_limit=5 audit_backlog_limit=64
+[  708.980738] audit: rate limit exceeded
+[  709.372559] init: starting service 'can-hal-1.0-service'...
+[  709.387608] type=1400 audit(1608520174.951:6634): avc: denied { call } for comm="Binder:24253_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  709.432449] logd: logdr: UID=1054 GID=1000 PID=24401 n tail=50 logMask=8 pid=24398 start=0ns deadline=0ns
+[  709.457858] logd: logdr: UID=1054 GID=1000 PID=24401 n tail=50 logMask=1 pid=24398 start=0ns deadline=0ns
+[  709.484635] logd: logdr: UID=1054 GID=1000 PID=24401 n tail=0 logMask=8 pid=24398 start=0ns deadline=0ns
+[  709.487595] type=1400 audit(1608520175.051:6635): avc: denied { call } for comm="Binder:24253_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  709.504720] logd: logdr: UID=1054 GID=1000 PID=24401 n tail=0 logMask=1 pid=24398 start=0ns deadline=0ns
+[  709.532820] init: Untracked pid 24401 exited with status 0
+[  709.538619] init: Untracked pid 24403 exited with status 0
+[  709.545000] init: Service 'can-hal-1.0-service' (pid 24398) received signal 6
+[  709.552930] init: Sending signal 9 to service 'can-hal-1.0-service' (pid 24398) process group...
+[  709.562875] libprocessgroup: Successfully killed process cgroup uid 1054 pid 24398 in 0ms
+[  709.572039] init: process with updatable components 'can-hal-1.0-service' exited 4 times in 4 minutes
+[  709.583618] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  709.587945] type=1400 audit(1608520175.151:6636): avc: denied { call } for comm="Binder:24253_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  709.594854] init: starting service 'exec 382 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  709.623986] init: SVC_EXEC service 'exec 382 (/system/bin/flags_health_check UPDATABLE_CRASHING)' pid 24408 (uid 1000 gid 1000+0 context default) started; waiting...
+[  709.639057] init: Service 'exec 382 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 24408) exited with status 0 waiting took 0.015000 seconds
+[  709.652762] init: Sending signal 9 to service 'exec 382 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 24408) process group...
+[  709.665427] libprocessgroup: Successfully killed process cgroup uid 1000 pid 24408 in 0ms
+[  709.688962] type=1400 audit(1608520175.255:6637): avc: denied { call } for comm="Binder:24253_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  709.789543] type=1400 audit(1608520175.351:6638): avc: denied { call } for comm="Binder:24253_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  709.990187] audit: audit_lost=3300 audit_rate_limit=5 audit_backlog_limit=64
+[  710.010263] audit: rate limit exceeded
+[  710.419566] type=1400 audit(1608520175.983:6644): avc: denied { call } for comm="Binder:24253_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  710.520016] type=1400 audit(1608520176.083:6645): avc: denied { call } for comm="Binder:24253_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  710.620698] type=1400 audit(1608520176.183:6646): avc: denied { call } for comm="Binder:24253_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  710.720863] type=1400 audit(1608520176.283:6647): avc: denied { call } for comm="Binder:24253_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  710.821110] type=1400 audit(1608520176.383:6648): avc: denied { call } for comm="Binder:24253_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  711.021681] audit: audit_lost=3305 audit_rate_limit=5 audit_backlog_limit=64
+[  711.028890] audit: rate limit exceeded
+[  711.234077] binder_transaction: 37 callbacks suppressed
+[  711.234099] binder: 24253:24253 transaction failed 29201/-1, size 176-0 line 3133
+[  711.348045] binder: 24253:24253 transaction failed 29201/-1, size 176-0 line 3133
+[  711.456213] binder: 24253:24253 transaction failed 29201/-1, size 176-0 line 3133
+[  711.456803] type=1400 audit(1608520177.019:6654): avc: denied { call } for comm="Binder:24253_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  711.564314] binder: 24253:24253 transaction failed 29201/-1, size 176-0 line 3133
+[  711.564801] type=1400 audit(1608520177.127:6655): avc: denied { call } for comm="Binder:24253_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  711.672396] binder: 24253:24253 transaction failed 29201/-1, size 176-0 line 3133
+[  711.672866] type=1400 audit(1608520177.235:6656): avc: denied { call } for comm="Binder:24253_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  711.781172] binder: 24253:24253 transaction failed 29201/-1, size 176-0 line 3133
+[  711.781565] type=1400 audit(1608520177.343:6657): avc: denied { call } for comm="Binder:24253_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  711.843628] logd: logdr: UID=1054 GID=1000 PID=24450 n tail=50 logMask=8 pid=24253 start=0ns deadline=0ns
+[  711.869588] logd: logdr: UID=1054 GID=1000 PID=24450 n tail=50 logMask=1 pid=24253 start=0ns deadline=0ns
+[  711.932329] logd: logdr: UID=1054 GID=1000 PID=24450 n tail=0 logMask=8 pid=24253 start=0ns deadline=0ns
+[  711.952224] logd: logdr: UID=1054 GID=1000 PID=24450 n tail=0 logMask=1 pid=24253 start=0ns deadline=0ns
+[  711.980115] init: Untracked pid 24450 exited with status 0
+[  711.985772] init: Untracked pid 24452 exited with status 0
+[  711.991394] init: Service 'vendor.vehicle-hal-2.0' (pid 24253) received signal 6
+[  711.999908] init: Sending signal 9 to service 'vendor.vehicle-hal-2.0' (pid 24253) process group...
+[  712.009348] libprocessgroup: Successfully killed process cgroup uid 1054 pid 24253 in 0ms
+[  712.017784] init: process with updatable components 'vendor.vehicle-hal-2.0' exited 4 times in 4 minutes
+[  712.030427] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  712.041626] init: starting service 'exec 383 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  712.052741] init: SVC_EXEC service 'exec 383 (/system/bin/flags_health_check UPDATABLE_CRASHING)' pid 24460 (uid 1000 gid 1000+0 context default) started; waiting...
+[  712.056615] binder: undelivered death notification, b40000728a55f0f0
+[  712.068077] init: starting service 'vendor.vehicle-hal-2.0'...
+[  712.109525] binder: undelivered transaction 517167, process died.
+[  712.110948] init: Service 'exec 383 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 24460) exited with status 0 waiting took 0.058000 seconds
+[  712.116376] binder: undelivered transaction 517169, process died.
+[  712.129476] init: Sending signal 9 to service 'exec 383 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 24460) process group...
+[  712.130770] binder_alloc: 24415: binder_alloc_buf, no vma
+[  712.130774] binder: 551:5266 transaction failed 29189/-3, size 116-0 line 3296
+[  712.135798] binder: undelivered transaction 517170, process died.
+[  712.138952] binder: 24461:24461 transaction failed 29201/-1, size 0-0 line 3133
+[  712.138997] audit: audit_lost=3309 audit_rate_limit=5 audit_backlog_limit=64
+[  712.138998] audit: rate limit exceeded
+[  712.139001] binder: 24461:24461 transaction failed 29201/-1, size 176-0 line 3133
+[  712.139133] type=1400 audit(1608520177.703:6658): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  712.148421] libprocessgroup: Successfully killed process cgroup uid 1000 pid 24460 in 0ms
+[  712.239310] binder: 24461:24461 transaction failed 29201/-1, size 176-0 line 3133
+[  712.413236] init: Untracked pid 24504 exited with status 0
+[  712.418925] init: Untracked pid 24506 exited with status 0
+[  712.470120] init: Untracked pid 24514 exited with status 0
+[  712.475778] init: Untracked pid 24518 exited with status 0
+[  712.490745] init: Untracked pid 24522 exited with status 0
+[  712.496475] init: Untracked pid 24524 exited with status 0
+[  712.517342] init: Untracked pid 24527 exited with status 0
+[  712.523008] init: Untracked pid 24529 exited with status 0
+[  712.529959] init: processing action (boot.car_service_created=1) from (/system/etc/init/com.android.car.procfsinspector.rc:7)
+[  712.541983] init: processing action (boot.car_service_created=1) from (/system/etc/init/init.bootstat.car.rc:6)
+[  712.552493] type=1400 audit(1608520178.115:6664): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  712.552697] init: starting service 'exec 384 (/system/bin/bootstat -r car_service_created)'...
+[  712.580063] init: SVC_EXEC service 'exec 384 (/system/bin/bootstat -r car_service_created)' pid 24561 (uid 1000 gid 1007+0 context default) started; waiting...
+[  712.594606] init: Untracked pid 24534 exited with status 0
+[  712.600280] init: Untracked pid 24542 exited with status 0
+[  712.605933] init: Service 'exec 384 (/system/bin/bootstat -r car_service_created)' (pid 24561) exited with status 0 waiting took 0.026000 seconds
+[  712.619125] init: Sending signal 9 to service 'exec 384 (/system/bin/bootstat -r car_service_created)' (pid 24561) process group...
+[  712.631236] libprocessgroup: Successfully killed process cgroup uid 1000 pid 24561 in 0ms
+[  712.639792] init: Untracked pid 24562 exited with status 0
+[  712.645408] init: Untracked pid 24564 exited with status 0
+[  712.653157] type=1400 audit(1608520178.219:6665): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  712.753480] type=1400 audit(1608520178.315:6666): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  712.854430] type=1400 audit(1608520178.415:6667): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  712.954966] type=1400 audit(1608520178.519:6668): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  713.001046] init: Untracked pid 24568 exited with status 0
+[  713.006706] init: Untracked pid 24570 exited with status 0
+[  713.045855] init: Untracked pid 24573 exited with status 0
+[  713.051631] init: Untracked pid 24575 exited with status 0
+[  713.097377] init: Untracked pid 24578 exited with status 0
+[  713.103092] init: Untracked pid 24580 exited with status 0
+[  713.155578] audit: audit_lost=3315 audit_rate_limit=5 audit_backlog_limit=64
+[  713.162751] audit: rate limit exceeded
+[  713.269572] init: Untracked pid 24583 exited with status 0
+[  713.278328] init: Untracked pid 24585 exited with status 0
+[  713.327739] init: Untracked pid 24588 exited with status 0
+[  713.333954] init: Untracked pid 24590 exited with status 0
+[  713.364297] init: Untracked pid 24593 exited with status 0
+[  713.371579] init: Untracked pid 24595 exited with status 0
+[  713.491152] init: Untracked pid 24598 exited with status 0
+[  713.497026] init: Untracked pid 24600 exited with status 0
+[  713.559289] init: Untracked pid 24603 exited with status 0
+[  713.565353] init: Untracked pid 24605 exited with status 0
+[  713.572464] type=1400 audit(1608520179.131:6674): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  713.669393] type=1400 audit(1608520179.231:6675): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  713.769348] type=1400 audit(1608520179.331:6676): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  713.869526] type=1400 audit(1608520179.431:6677): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  713.969445] type=1400 audit(1608520179.531:6678): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  714.065580] init: Untracked pid 24608 exited with status 0
+[  714.072943] init: Untracked pid 24610 exited with status 0
+[  714.169548] audit: audit_lost=3320 audit_rate_limit=5 audit_backlog_limit=64
+[  714.176752] audit: rate limit exceeded
+[  714.383453] init: starting service 'can-hal-1.0-service'...
+[  714.456146] logd: logdr: UID=1054 GID=1000 PID=24614 n tail=50 logMask=8 pid=24611 start=0ns deadline=0ns
+[  714.481212] logd: logdr: UID=1054 GID=1000 PID=24614 n tail=50 logMask=1 pid=24611 start=0ns deadline=0ns
+[  714.510652] logd: logdr: UID=1054 GID=1000 PID=24614 n tail=0 logMask=8 pid=24611 start=0ns deadline=0ns
+[  714.532965] logd: logdr: UID=1054 GID=1000 PID=24614 n tail=0 logMask=1 pid=24611 start=0ns deadline=0ns
+[  714.556311] init: Service 'can-hal-1.0-service' (pid 24611) received signal 6
+[  714.563670] init: Sending signal 9 to service 'can-hal-1.0-service' (pid 24611) process group...
+[  714.573244] libprocessgroup: Successfully killed process cgroup uid 1054 pid 24611 in 0ms
+[  714.581849] init: process with updatable components 'can-hal-1.0-service' exited 4 times in 4 minutes
+[  714.592618] type=1400 audit(1608520180.155:6684): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  714.593679] init: Untracked pid 24616 exited with status 0
+[  714.615376] init: Untracked pid 24614 exited with status 0
+[  714.621243] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  714.632329] init: starting service 'exec 385 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  714.643700] init: SVC_EXEC service 'exec 385 (/system/bin/flags_health_check UPDATABLE_CRASHING)' pid 24621 (uid 1000 gid 1000+0 context default) started; waiting...
+[  714.658879] init: Service 'exec 385 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 24621) exited with status 0 waiting took 0.015000 seconds
+[  714.672598] init: Sending signal 9 to service 'exec 385 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 24621) process group...
+[  714.685235] libprocessgroup: Successfully killed process cgroup uid 1000 pid 24621 in 0ms
+[  714.693038] type=1400 audit(1608520180.259:6685): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  714.793582] type=1400 audit(1608520180.359:6686): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  714.894322] type=1400 audit(1608520180.459:6687): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  714.995099] type=1400 audit(1608520180.559:6688): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  715.067162] perfetto: disabled ftrace
+[  715.195437] audit: audit_lost=3325 audit_rate_limit=5 audit_backlog_limit=64
+[  715.202707] audit: rate limit exceeded
+[  715.608921] type=1400 audit(1608520181.171:6694): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  715.709443] type=1400 audit(1608520181.271:6695): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  715.809734] type=1400 audit(1608520181.371:6696): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  715.910748] type=1400 audit(1608520181.471:6697): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  716.011283] type=1400 audit(1608520181.575:6698): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  716.211498] audit: audit_lost=3330 audit_rate_limit=5 audit_backlog_limit=64
+[  716.219698] audit: rate limit exceeded
+[  716.324084] binder_transaction: 39 callbacks suppressed
+[  716.324107] binder: 24461:24461 transaction failed 29201/-1, size 176-0 line 3133
+[  716.444803] binder: 24461:24461 transaction failed 29201/-1, size 176-0 line 3133
+[  716.553437] binder: 24461:24461 transaction failed 29201/-1, size 176-0 line 3133
+[  716.661371] binder: 24461:24461 transaction failed 29201/-1, size 176-0 line 3133
+[  716.661708] type=1400 audit(1608520182.223:6704): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  716.769737] binder: 24461:24461 transaction failed 29201/-1, size 176-0 line 3133
+[  716.770027] type=1400 audit(1608520182.331:6705): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  716.795747] Bluetooth: hci0: setting up wcn3990
+[  716.877798] binder: 24461:24461 transaction failed 29201/-1, size 176-0 line 3133
+[  716.878237] type=1400 audit(1608520182.439:6706): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  716.979676] Bluetooth: hci0: QCA controller version 0x02140201
+[  716.985847] Bluetooth: hci0: QCA Downloading qca/crbtfw21.tlv
+[  716.986151] binder: 24461:24461 transaction failed 29201/-1, size 176-0 line 3133
+[  716.986427] type=1400 audit(1608520182.547:6707): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  717.118832] binder: 24461:24461 transaction failed 29201/-1, size 176-0 line 3133
+[  717.119760] type=1400 audit(1608520182.683:6708): avc: denied { call } for comm="Binder:24461_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  717.227079] audit: audit_lost=3334 audit_rate_limit=5 audit_backlog_limit=64
+[  717.239413] audit: rate limit exceeded
+[  717.243335] binder: 24461:24461 transaction failed 29201/-1, size 176-0 line 3133
+[  717.443867] logd: logdr: UID=1054 GID=1000 PID=24670 n tail=50 logMask=8 pid=24461 start=0ns deadline=0ns
+[  717.471093] logd: logdr: UID=1054 GID=1000 PID=24670 n tail=50 logMask=1 pid=24461 start=0ns deadline=0ns
+[  717.512178] logd: logdr: UID=1054 GID=1000 PID=24670 n tail=0 logMask=8 pid=24461 start=0ns deadline=0ns
+[  717.540960] logd: logdr: UID=1054 GID=1000 PID=24670 n tail=0 logMask=1 pid=24461 start=0ns deadline=0ns
+[  717.569209] init: Untracked pid 24670 exited with status 0
+[  717.577921] init: Service 'vendor.vehicle-hal-2.0' (pid 24461) received signal 6
+[  717.586227] init: Sending signal 9 to service 'vendor.vehicle-hal-2.0' (pid 24461) process group...
+[  717.597029] libprocessgroup: Successfully killed process cgroup uid 1054 pid 24461 in 0ms
+[  717.606687] init: process with updatable components 'vendor.vehicle-hal-2.0' exited 4 times in 4 minutes
+[  717.619318] init: Untracked pid 24672 exited with status 0
+[  717.620030] binder: undelivered death notification, b40000728a560900
+[  717.625847] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  717.646807] init: starting service 'exec 386 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  717.684338] init: SVC_EXEC service 'exec 386 (/system/bin/flags_health_check UPDATABLE_CRASHING)' pid 24678 (uid 1000 gid 1000+0 context default) started; waiting...
+[  717.702098] init: Command 'exec - system system -- /system/bin/flags_health_check UPDATABLE_CRASHING' action=sys.init.updatable_crashing=1 (/system/etc/init/flags_health_check.rc:11) took 56ms and succeeded
+[  717.721878] init: starting service 'vendor.vehicle-hal-2.0'...
+[  717.731438] init: Service 'exec 386 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 24678) exited with status 0 waiting took 0.055000 seconds
+[  717.745188] init: Sending signal 9 to service 'exec 386 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 24678) process group...
+[  717.746251] binder: 24701:24701 transaction failed 29201/-1, size 0-0 line 3133
+[  717.746483] type=1400 audit(1608520183.307:6710): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  717.757834] libprocessgroup: Successfully killed process cgroup uid 1000 pid 24678 in 0ms
+[  717.765363] type=1400 audit(1608520183.327:6711): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  717.808047] type=1400 audit(1608520183.327:6712): avc: denied { read } for comm="Binder:24701_2" name="u:object_r:boot_status_prop:s0" dev="tmpfs" ino=13108 scontext=u:r:hal_vehicle_default:s0 tcontext=u:object_r:boot_status_prop:s0 tclass=file permissive=0
+[  717.865920] type=1400 audit(1608520183.427:6713): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  717.886654] Bluetooth: hci0: QCA Downloading qca/crnv21.bin
+[  717.929593] Bluetooth: hci0: QCA setup on UART is completed
+[  717.935308] debugfs: Directory 'ibs' with parent 'hci0' already present!
+[  717.963857] init: Untracked pid 24725 exited with status 0
+[  717.965947] type=1400 audit(1608520183.527:6714): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  717.969796] init: Untracked pid 24729 exited with status 0
+[  718.039139] init: Untracked pid 24738 exited with status 0
+[  718.044897] init: Untracked pid 24740 exited with status 0
+[  718.059487] init: Untracked pid 24743 exited with status 0
+[  718.065182] init: Untracked pid 24745 exited with status 0
+[  718.070981] init: processing action (boot.car_service_created=1) from (/system/etc/init/com.android.car.procfsinspector.rc:7)
+[  718.082483] init: processing action (boot.car_service_created=1) from (/system/etc/init/init.bootstat.car.rc:6)
+[  718.093039] init: starting service 'exec 387 (/system/bin/bootstat -r car_service_created)'...
+[  718.107548] init: SVC_EXEC service 'exec 387 (/system/bin/bootstat -r car_service_created)' pid 24751 (uid 1000 gid 1007+0 context default) started; waiting...
+[  718.122240] init: Service 'exec 387 (/system/bin/bootstat -r car_service_created)' (pid 24751) exited with status 0 waiting took 0.015000 seconds
+[  718.135466] init: Sending signal 9 to service 'exec 387 (/system/bin/bootstat -r car_service_created)' (pid 24751) process group...
+[  718.147609] libprocessgroup: Successfully killed process cgroup uid 1000 pid 24751 in 0ms
+[  718.156248] init: Untracked pid 24755 exited with status 0
+[  718.161922] init: Untracked pid 24753 exited with status 0
+[  718.172220] init: Untracked pid 24758 exited with status 0
+[  718.177866] init: Untracked pid 24760 exited with status 0
+[  718.190129] init: Untracked pid 24763 exited with status 0
+[  718.195770] init: Untracked pid 24765 exited with status 0
+[  718.271383] audit: audit_lost=3337 audit_rate_limit=5 audit_backlog_limit=64
+[  718.278521] audit: rate limit exceeded
+[  718.685445] init: Untracked pid 24768 exited with status 0
+[  718.691091] init: Untracked pid 24770 exited with status 0
+[  718.739283] init: Untracked pid 24773 exited with status 0
+[  718.744945] init: Untracked pid 24775 exited with status 0
+[  718.785569] type=1400 audit(1608520184.347:6722): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  718.788294] init: Untracked pid 24778 exited with status 0
+[  718.808569] init: Untracked pid 24780 exited with status 0
+[  718.941749] init: Untracked pid 24783 exited with status 0
+[  718.942881] type=1400 audit(1608520184.451:6723): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  718.947501] init: Untracked pid 24785 exited with status 0
+[  718.987440] type=1400 audit(1608520184.551:6724): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  719.034566] init: Untracked pid 24788 exited with status 0
+[  719.043045] init: Untracked pid 24790 exited with status 0
+[  719.078424] init: Untracked pid 24793 exited with status 0
+[  719.084166] init: Untracked pid 24795 exited with status 0
+[  719.087749] type=1400 audit(1608520184.651:6725): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  719.187998] type=1400 audit(1608520184.751:6726): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  719.188825] init: Untracked pid 24798 exited with status 0
+[  719.211854] init: Untracked pid 24800 exited with status 0
+[  719.256005] init: Untracked pid 24803 exited with status 0
+[  719.261768] init: Untracked pid 24805 exited with status 0
+[  719.287843] audit: audit_lost=3342 audit_rate_limit=5 audit_backlog_limit=64
+[  719.298777] audit: rate limit exceeded
+[  719.395875] init: starting service 'can-hal-1.0-service'...
+[  719.450539] logd: logdr: UID=1054 GID=1000 PID=24809 n tail=50 logMask=8 pid=24806 start=0ns deadline=0ns
+[  719.474246] logd: logdr: UID=1054 GID=1000 PID=24809 n tail=50 logMask=1 pid=24806 start=0ns deadline=0ns
+[  719.506377] logd: logdr: UID=1054 GID=1000 PID=24809 n tail=0 logMask=8 pid=24806 start=0ns deadline=0ns
+[  719.527345] logd: logdr: UID=1054 GID=1000 PID=24809 n tail=0 logMask=1 pid=24806 start=0ns deadline=0ns
+[  719.551468] init: Untracked pid 24809 exited with status 0
+[  719.557760] init: Service 'can-hal-1.0-service' (pid 24806) received signal 6
+[  719.565231] init: Sending signal 9 to service 'can-hal-1.0-service' (pid 24806) process group...
+[  719.575778] libprocessgroup: Successfully killed process cgroup uid 1054 pid 24806 in 0ms
+[  719.584890] init: process with updatable components 'can-hal-1.0-service' exited 4 times in 4 minutes
+[  719.595784] init: Untracked pid 24811 exited with status 0
+[  719.603022] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  719.614690] init: starting service 'exec 388 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  719.626560] init: SVC_EXEC service 'exec 388 (/system/bin/flags_health_check UPDATABLE_CRASHING)' pid 24816 (uid 1000 gid 1000+0 context default) started; waiting...
+[  719.641701] init: Service 'exec 388 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 24816) exited with status 0 waiting took 0.015000 seconds
+[  719.655462] init: Sending signal 9 to service 'exec 388 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 24816) process group...
+[  719.668200] libprocessgroup: Successfully killed process cgroup uid 1000 pid 24816 in 0ms
+[  719.817867] type=1400 audit(1608520185.379:6732): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  719.852818] init: Untracked pid 24819 exited with status 0
+[  719.858455] init: Untracked pid 24821 exited with status 0
+[  719.919144] type=1400 audit(1608520185.479:6733): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  720.019671] type=1400 audit(1608520185.579:6734): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  720.120588] type=1400 audit(1608520185.679:6735): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  720.189892] init: Untracked pid 24824 exited with status 0
+[  720.213013] init: Untracked pid 24826 exited with status 0
+[  720.219306] type=1400 audit(1608520185.775:6736): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  720.319075] audit: audit_lost=3347 audit_rate_limit=5 audit_backlog_limit=64
+[  720.326905] audit: rate limit exceeded
+[  720.834079] type=1400 audit(1608520186.395:6742): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  720.934779] type=1400 audit(1608520186.495:6743): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  721.037691] type=1400 audit(1608520186.599:6744): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  721.140262] type=1400 audit(1608520186.703:6745): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  721.240357] type=1400 audit(1608520186.803:6746): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  721.340139] audit: audit_lost=3352 audit_rate_limit=5 audit_backlog_limit=64
+[  721.347285] audit: rate limit exceeded
+[  721.351575] binder_transaction: 35 callbacks suppressed
+[  721.351579] binder: 24701:24701 transaction failed 29201/-1, size 176-0 line 3133
+[  721.465585] binder: 24701:24701 transaction failed 29201/-1, size 176-0 line 3133
+[  721.573507] binder: 24701:24701 transaction failed 29201/-1, size 176-0 line 3133
+[  721.681588] binder: 24701:24701 transaction failed 29201/-1, size 176-0 line 3133
+[  721.791113] binder: 24701:24701 transaction failed 29201/-1, size 176-0 line 3133
+[  721.899610] binder: 24701:24701 transaction failed 29201/-1, size 176-0 line 3133
+[  721.900054] type=1400 audit(1608520187.463:6752): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  722.013868] binder: 24701:24701 transaction failed 29201/-1, size 176-0 line 3133
+[  722.015249] type=1400 audit(1608520187.575:6753): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  722.124819] binder: 24701:24701 transaction failed 29201/-1, size 176-0 line 3133
+[  722.125332] type=1400 audit(1608520187.687:6754): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  722.235594] binder: 24701:24701 transaction failed 29201/-1, size 176-0 line 3133
+[  722.235924] type=1400 audit(1608520187.799:6755): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  722.344268] binder: 24701:24701 transaction failed 29201/-1, size 176-0 line 3133
+[  722.344690] type=1400 audit(1608520187.907:6756): avc: denied { call } for comm="Binder:24701_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  722.452797] audit: audit_lost=3357 audit_rate_limit=5 audit_backlog_limit=64
+[  722.460327] audit: rate limit exceeded
+[  722.843696] logd: logdr: UID=1054 GID=1000 PID=24839 n tail=50 logMask=8 pid=24701 start=0ns deadline=0ns
+[  722.867821] logd: logdr: UID=1054 GID=1000 PID=24839 n tail=50 logMask=1 pid=24701 start=0ns deadline=0ns
+[  722.906619] logd: logdr: UID=1054 GID=1000 PID=24839 n tail=0 logMask=8 pid=24701 start=0ns deadline=0ns
+[  722.930183] logd: logdr: UID=1054 GID=1000 PID=24839 n tail=0 logMask=1 pid=24701 start=0ns deadline=0ns
+[  722.962666] init: Untracked pid 24841 exited with status 0
+[  722.968774] init: Untracked pid 24839 exited with status 0
+[  722.977493] init: Service 'vendor.vehicle-hal-2.0' (pid 24701) received signal 6
+[  722.985173] init: Sending signal 9 to service 'vendor.vehicle-hal-2.0' (pid 24701) process group...
+[  722.994747] libprocessgroup: Successfully killed process cgroup uid 1054 pid 24701 in 0ms
+[  723.003224] init: process with updatable components 'vendor.vehicle-hal-2.0' exited 4 times in 4 minutes
+[  723.015019] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  723.026385] init: starting service 'exec 389 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  723.037690] init: SVC_EXEC service 'exec 389 (/system/bin/flags_health_check UPDATABLE_CRASHING)' pid 24847 (uid 1000 gid 1000+0 context default) started; waiting...
+[  723.053224] init: starting service 'vendor.vehicle-hal-2.0'...
+[  723.053634] binder: undelivered death notification, b40000728a55f0f0
+[  723.061588] init: Service 'exec 389 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 24847) exited with status 0 waiting took 0.024000 seconds
+[  723.080236] init: Sending signal 9 to service 'exec 389 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 24847) process group...
+[  723.093798] libprocessgroup: Successfully killed process cgroup uid 1000 pid 24847 in 0ms
+[  723.122618] type=1400 audit(1608520188.683:6761): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  723.140792] type=1400 audit(1608520188.683:6762): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  723.158256] type=1400 audit(1608520188.683:6763): avc: denied { read } for comm="Binder:24848_2" name="u:object_r:boot_status_prop:s0" dev="tmpfs" ino=13108 scontext=u:r:hal_vehicle_default:s0 tcontext=u:object_r:boot_status_prop:s0 tclass=file permissive=0
+[  723.221568] type=1400 audit(1608520188.783:6764): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  723.321817] type=1400 audit(1608520188.883:6765): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  723.401312] init: Untracked pid 24891 exited with status 0
+[  723.407056] init: Untracked pid 24894 exited with status 0
+[  723.469571] init: Untracked pid 24904 exited with status 0
+[  723.475278] init: Untracked pid 24906 exited with status 0
+[  723.488195] init: Untracked pid 24909 exited with status 0
+[  723.493892] init: Untracked pid 24911 exited with status 0
+[  723.513808] init: Untracked pid 24915 exited with status 0
+[  723.519526] init: Untracked pid 24918 exited with status 0
+[  723.525230] audit: audit_lost=3362 audit_rate_limit=5 audit_backlog_limit=64
+[  723.525317] init: processing action (boot.car_service_created=1) from (/system/etc/init/com.android.car.procfsinspector.rc:7)
+[  723.534606] audit: rate limit exceeded
+[  723.543896] init: processing action (boot.car_service_created=1) from (/system/etc/init/init.bootstat.car.rc:6)
+[  723.558302] init: starting service 'exec 390 (/system/bin/bootstat -r car_service_created)'...
+[  723.568911] init: SVC_EXEC service 'exec 390 (/system/bin/bootstat -r car_service_created)' pid 24948 (uid 1000 gid 1007+0 context default) started; waiting...
+[  723.583454] init: Untracked pid 24924 exited with status 0
+[  723.589115] init: Untracked pid 24927 exited with status 0
+[  723.594738] init: Service 'exec 390 (/system/bin/bootstat -r car_service_created)' (pid 24948) exited with status 0 waiting took 0.026000 seconds
+[  723.607931] init: Sending signal 9 to service 'exec 390 (/system/bin/bootstat -r car_service_created)' (pid 24948) process group...
+[  723.620079] libprocessgroup: Successfully killed process cgroup uid 1000 pid 24948 in 0ms
+[  723.628615] init: Untracked pid 24952 exited with status 0
+[  723.634246] init: Untracked pid 24954 exited with status 0
+[  723.866052] init: Untracked pid 24987 exited with status 0
+[  723.871767] init: Untracked pid 24989 exited with status 0
+[  723.918199] init: Untracked pid 24992 exited with status 0
+[  723.924182] init: Untracked pid 24994 exited with status 0
+[  723.969846] init: Untracked pid 24997 exited with status 0
+[  723.975506] init: Untracked pid 24999 exited with status 0
+[  724.088433] init: Untracked pid 25002 exited with status 0
+[  724.095350] init: Untracked pid 25004 exited with status 0
+[  724.146146] init: Untracked pid 25007 exited with status 0
+[  724.152252] init: Untracked pid 25009 exited with status 0
+[  724.152422] type=1400 audit(1608520189.715:6773): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  724.176680] init: Untracked pid 25012 exited with status 0
+[  724.182410] init: Untracked pid 25014 exited with status 0
+[  724.252902] type=1400 audit(1608520189.815:6774): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  724.273981] init: Untracked pid 25017 exited with status 0
+[  724.281966] init: Untracked pid 25019 exited with status 0
+[  724.342386] init: Untracked pid 25022 exited with status 0
+[  724.349074] init: Untracked pid 25024 exited with status 0
+[  724.353022] type=1400 audit(1608520189.915:6775): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  724.405113] init: starting service 'can-hal-1.0-service'...
+[  724.453222] type=1400 audit(1608520190.015:6776): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  724.487368] logd: logdr: UID=1054 GID=1000 PID=25028 n tail=50 logMask=8 pid=25025 start=0ns deadline=0ns
+[  724.508746] logd: logdr: UID=1054 GID=1000 PID=25028 n tail=50 logMask=1 pid=25025 start=0ns deadline=0ns
+[  724.537719] logd: logdr: UID=1054 GID=1000 PID=25028 n tail=0 logMask=8 pid=25025 start=0ns deadline=0ns
+[  724.553507] type=1400 audit(1608520190.115:6777): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  724.560070] logd: logdr: UID=1054 GID=1000 PID=25028 n tail=0 logMask=1 pid=25025 start=0ns deadline=0ns
+[  724.594862] init: Service 'can-hal-1.0-service' (pid 25025) received signal 6
+[  724.602252] init: Sending signal 9 to service 'can-hal-1.0-service' (pid 25025) process group...
+[  724.611567] libprocessgroup: Successfully killed process cgroup uid 1054 pid 25025 in 0ms
+[  724.620915] init: Untracked pid 25028 exited with status 0
+[  724.626585] init: Untracked pid 25030 exited with status 0
+[  724.654388] audit: audit_lost=3368 audit_rate_limit=5 audit_backlog_limit=64
+[  724.661683] audit: rate limit exceeded
+[  724.930281] init: Untracked pid 25037 exited with status 0
+[  724.936656] init: Untracked pid 25039 exited with status 0
+[  725.168419] type=1400 audit(1608520190.731:6783): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  725.268666] type=1400 audit(1608520190.831:6784): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  725.302009] init: Untracked pid 25042 exited with status 0
+[  725.311094] init: Untracked pid 25044 exited with status 0
+[  725.369898] type=1400 audit(1608520190.931:6785): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  725.471028] type=1400 audit(1608520191.031:6786): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  725.571311] type=1400 audit(1608520191.135:6787): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  725.671495] audit: audit_lost=3373 audit_rate_limit=5 audit_backlog_limit=64
+[  725.678656] audit: rate limit exceeded
+[  726.186064] type=1400 audit(1608520191.747:6793): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  726.286318] type=1400 audit(1608520191.847:6794): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  726.385588] binder_transaction: 37 callbacks suppressed
+[  726.385596] binder: 24848:24848 transaction failed 29201/-1, size 176-0 line 3133
+[  726.398867] type=1400 audit(1608520191.947:6795): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  726.516652] binder: 24848:24848 transaction failed 29201/-1, size 176-0 line 3133
+[  726.524494] type=1400 audit(1608520192.079:6796): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  726.642108] binder: 24848:24848 transaction failed 29201/-1, size 176-0 line 3133
+[  726.650033] type=1400 audit(1608520192.203:6797): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  726.767589] audit: audit_lost=3378 audit_rate_limit=5 audit_backlog_limit=64
+[  726.774799] audit: rate limit exceeded
+[  726.778679] binder: 24848:24848 transaction failed 29201/-1, size 176-0 line 3133
+[  726.886705] binder: 24848:24848 transaction failed 29201/-1, size 176-0 line 3133
+[  726.994633] binder: 24848:24848 transaction failed 29201/-1, size 176-0 line 3133
+[  727.102701] binder: 24848:24848 transaction failed 29201/-1, size 176-0 line 3133
+[  727.144190] perfetto: enabled ftrace
+[  727.211427] binder: 24848:24848 transaction failed 29201/-1, size 176-0 line 3133
+[  727.219482] type=1400 audit(1608520192.775:6802): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  727.337703] binder: 24848:24848 transaction failed 29201/-1, size 176-0 line 3133
+[  727.346302] type=1400 audit(1608520192.899:6803): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  727.464154] binder: 24848:24848 transaction failed 29201/-1, size 176-0 line 3133
+[  727.472087] type=1400 audit(1608520193.027:6804): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  727.591748] type=1400 audit(1608520193.155:6805): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  727.691859] type=1400 audit(1608520193.255:6806): avc: denied { call } for comm="Binder:24848_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  727.791153] audit: audit_lost=3382 audit_rate_limit=5 audit_backlog_limit=64
+[  727.798386] audit: rate limit exceeded
+[  728.254680] logd: logdr: UID=1054 GID=1000 PID=25053 n tail=50 logMask=8 pid=24848 start=0ns deadline=0ns
+[  728.276799] logd: logdr: UID=1054 GID=1000 PID=25053 n tail=50 logMask=1 pid=24848 start=0ns deadline=0ns
+[  728.314625] logd: logdr: UID=1054 GID=1000 PID=25053 n tail=0 logMask=8 pid=24848 start=0ns deadline=0ns
+[  728.339741] logd: logdr: UID=1054 GID=1000 PID=25053 n tail=0 logMask=1 pid=24848 start=0ns deadline=0ns
+[  728.368324] init: Untracked pid 25053 exited with status 0
+[  728.374504] init: Untracked pid 25055 exited with status 0
+[  728.381462] init: Service 'vendor.vehicle-hal-2.0' (pid 24848) received signal 6
+[  728.394583] init: Sending signal 9 to service 'vendor.vehicle-hal-2.0' (pid 24848) process group...
+[  728.405404] libprocessgroup: Successfully killed process cgroup uid 1054 pid 24848 in 0ms
+[  728.414615] init: process with updatable components 'vendor.vehicle-hal-2.0' exited 4 times in 4 minutes
+[  728.427044] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  728.438765] binder: undelivered death notification, b40000728a561c40
+[  728.439262] init: starting service 'exec 391 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  728.451042] binder: undelivered transaction 542123, process died.
+[  728.477935] init: SVC_EXEC service 'exec 391 (/system/bin/flags_health_check UPDATABLE_CRASHING)' pid 25061 (uid 1000 gid 1000+0 context default) started; waiting...
+[  728.492965] init: Command 'exec - system system -- /system/bin/flags_health_check UPDATABLE_CRASHING' action=sys.init.updatable_crashing=1 (/system/etc/init/flags_health_check.rc:11) took 54ms and succeeded
+[  728.511999] init: starting service 'vendor.vehicle-hal-2.0'...
+[  728.512357] binder: undelivered transaction 542165, process died.
+[  728.520856] init: Service 'exec 391 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 25061) exited with status 0 waiting took 0.045000 seconds
+[  728.524485] binder: undelivered transaction 542172, process died.
+[  728.537848] init: Sending signal 9 to service 'exec 391 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 25061) process group...
+[  728.543967] binder: undelivered transaction 542174, process died.
+[  728.546455] type=1400 audit(1608520194.107:6812): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  728.546581] type=1400 audit(1608520194.107:6813): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  728.546655] type=1400 audit(1608520194.107:6814): avc: denied { read } for comm="Binder:25083_2" name="u:object_r:boot_status_prop:s0" dev="tmpfs" ino=13108 scontext=u:r:hal_vehicle_default:s0 tcontext=u:object_r:boot_status_prop:s0 tclass=file permissive=0
+[  728.556605] libprocessgroup: Successfully killed process cgroup uid 1000 pid 25061 in 0ms
+[  728.562567] binder: undelivered transaction 542177, process died.
+[  728.647167] type=1400 audit(1608520194.211:6815): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  728.737409] init: Untracked pid 25106 exited with status 0
+[  728.743102] init: Untracked pid 25108 exited with status 0
+[  728.749239] type=1400 audit(1608520194.311:6816): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  728.808430] init: Untracked pid 25117 exited with status 0
+[  728.814145] init: Untracked pid 25120 exited with status 0
+[  728.823828] init: Untracked pid 25124 exited with status 0
+[  728.829605] init: Untracked pid 25126 exited with status 0
+[  728.849125] audit: audit_lost=3387 audit_rate_limit=5 audit_backlog_limit=64
+[  728.856276] audit: rate limit exceeded
+[  728.857833] init: processing action (boot.car_service_created=1) from (/system/etc/init/com.android.car.procfsinspector.rc:7)
+[  728.871775] init: Untracked pid 25129 exited with status 0
+[  728.877457] init: Untracked pid 25131 exited with status 0
+[  728.883144] init: processing action (boot.car_service_created=1) from (/system/etc/init/init.bootstat.car.rc:6)
+[  728.893787] init: starting service 'exec 392 (/system/bin/bootstat -r car_service_created)'...
+[  728.904309] init: SVC_EXEC service 'exec 392 (/system/bin/bootstat -r car_service_created)' pid 25161 (uid 1000 gid 1007+0 context default) started; waiting...
+[  728.918820] init: Untracked pid 25143 exited with status 0
+[  728.924462] init: Untracked pid 25150 exited with status 0
+[  728.930092] init: Service 'exec 392 (/system/bin/bootstat -r car_service_created)' (pid 25161) exited with status 0 waiting took 0.026000 seconds
+[  728.943266] init: Sending signal 9 to service 'exec 392 (/system/bin/bootstat -r car_service_created)' (pid 25161) process group...
+[  728.955437] libprocessgroup: Successfully killed process cgroup uid 1000 pid 25161 in 0ms
+[  728.963938] init: Untracked pid 25165 exited with status 0
+[  728.969564] init: Untracked pid 25167 exited with status 0
+[  729.230843] init: Untracked pid 25170 exited with status 0
+[  729.236532] init: Untracked pid 25172 exited with status 0
+[  729.280067] init: Untracked pid 25175 exited with status 0
+[  729.286013] init: Untracked pid 25177 exited with status 0
+[  729.347048] init: Untracked pid 25180 exited with status 0
+[  729.352762] init: Untracked pid 25182 exited with status 0
+[  729.414245] init: starting service 'can-hal-1.0-service'...
+[  729.498392] init: Untracked pid 25185 exited with status 0
+[  729.505451] init: Untracked pid 25190 exited with status 0
+[  729.529722] logd: logdr: UID=1054 GID=1000 PID=25191 n tail=50 logMask=8 pid=25186 start=0ns deadline=0ns
+[  729.549700] logd: logdr: UID=1054 GID=1000 PID=25191 n tail=50 logMask=1 pid=25186 start=0ns deadline=0ns
+[  729.563390] type=1400 audit(1608520195.127:6824): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  729.575766] logd: logdr: UID=1054 GID=1000 PID=25191 n tail=0 logMask=8 pid=25186 start=0ns deadline=0ns
+[  729.604462] logd: logdr: UID=1054 GID=1000 PID=25191 n tail=0 logMask=1 pid=25186 start=0ns deadline=0ns
+[  729.628456] init: Service 'can-hal-1.0-service' (pid 25186) received signal 6
+[  729.638659] init: Sending signal 9 to service 'can-hal-1.0-service' (pid 25186) process group...
+[  729.648366] libprocessgroup: Successfully killed process cgroup uid 1054 pid 25186 in 0ms
+[  729.658509] init: Untracked pid 25193 exited with status 0
+[  729.663774] type=1400 audit(1608520195.227:6825): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  729.664487] init: Untracked pid 25191 exited with status 0
+[  729.687141] init: Untracked pid 25196 exited with status 0
+[  729.692933] init: Untracked pid 25198 exited with status 0
+[  729.720237] init: Untracked pid 25206 exited with status 0
+[  729.726085] init: Untracked pid 25208 exited with status 0
+[  729.763984] type=1400 audit(1608520195.327:6826): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  729.796495] init: Untracked pid 25211 exited with status 0
+[  729.802662] init: Untracked pid 25213 exited with status 0
+[  729.852203] init: Untracked pid 25216 exited with status 0
+[  729.864212] type=1400 audit(1608520195.427:6827): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  729.866561] init: Untracked pid 25218 exited with status 0
+[  729.964403] type=1400 audit(1608520195.527:6828): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  730.064524] audit: audit_lost=3394 audit_rate_limit=5 audit_backlog_limit=64
+[  730.071678] audit: rate limit exceeded
+[  730.269789] init: Untracked pid 25221 exited with status 0
+[  730.275519] init: Untracked pid 25223 exited with status 0
+[  730.577585] type=1400 audit(1608520196.139:6834): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  730.623560] init: Untracked pid 25226 exited with status 0
+[  730.646442] init: Untracked pid 25228 exited with status 0
+[  730.677801] type=1400 audit(1608520196.239:6835): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  730.778272] type=1400 audit(1608520196.339:6836): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  730.878925] type=1400 audit(1608520196.439:6837): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  730.979395] type=1400 audit(1608520196.539:6838): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  731.079200] audit: audit_lost=3399 audit_rate_limit=5 audit_backlog_limit=64
+[  731.089269] audit: rate limit exceeded
+[  731.394920] binder_transaction: 36 callbacks suppressed
+[  731.394942] binder: 25083:25083 transaction failed 29201/-1, size 176-0 line 3133
+[  731.509376] binder: 25083:25083 transaction failed 29201/-1, size 176-0 line 3133
+[  731.618005] binder: 25083:25083 transaction failed 29201/-1, size 176-0 line 3133
+[  731.618595] type=1400 audit(1608520197.179:6844): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  731.726303] binder: 25083:25083 transaction failed 29201/-1, size 176-0 line 3133
+[  731.726718] type=1400 audit(1608520197.287:6845): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  731.834735] binder: 25083:25083 transaction failed 29201/-1, size 176-0 line 3133
+[  731.835301] type=1400 audit(1608520197.399:6846): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  731.943293] binder: 25083:25083 transaction failed 29201/-1, size 176-0 line 3133
+[  731.943866] type=1400 audit(1608520197.507:6847): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  732.051685] binder: 25083:25083 transaction failed 29201/-1, size 176-0 line 3133
+[  732.052260] type=1400 audit(1608520197.615:6848): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  732.111066] perfetto: disabled ftrace
+[  732.160001] audit: audit_lost=3404 audit_rate_limit=5 audit_backlog_limit=64
+[  732.167689] audit: rate limit exceeded
+[  732.173460] binder: 25083:25083 transaction failed 29201/-1, size 176-0 line 3133
+[  732.285364] binder: 25083:25083 transaction failed 29201/-1, size 176-0 line 3133
+[  732.393589] binder: 25083:25083 transaction failed 29201/-1, size 176-0 line 3133
+[  732.703796] type=1400 audit(1608520198.267:6854): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  732.804303] type=1400 audit(1608520198.367:6855): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  732.904814] type=1400 audit(1608520198.467:6856): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  733.005269] type=1400 audit(1608520198.567:6857): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  733.105769] type=1400 audit(1608520198.667:6858): avc: denied { call } for comm="Binder:25083_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  733.205838] audit: audit_lost=3409 audit_rate_limit=5 audit_backlog_limit=64
+[  733.213541] audit: rate limit exceeded
+[  733.845882] logd: logdr: UID=1054 GID=1000 PID=25231 n tail=50 logMask=8 pid=25083 start=0ns deadline=0ns
+[  733.867309] logd: logdr: UID=1054 GID=1000 PID=25231 n tail=50 logMask=1 pid=25083 start=0ns deadline=0ns
+[  733.907879] logd: logdr: UID=1054 GID=1000 PID=25231 n tail=0 logMask=8 pid=25083 start=0ns deadline=0ns
+[  733.942442] logd: logdr: UID=1054 GID=1000 PID=25231 n tail=0 logMask=1 pid=25083 start=0ns deadline=0ns
+[  733.968584] init: Untracked pid 25231 exited with status 0
+[  733.974772] init: Untracked pid 25233 exited with status 0
+[  733.985055] init: Service 'vendor.vehicle-hal-2.0' (pid 25083) received signal 6
+[  733.993842] init: Sending signal 9 to service 'vendor.vehicle-hal-2.0' (pid 25083) process group...
+[  734.022620] libprocessgroup: Successfully killed process cgroup uid 1054 pid 25083 in 0ms
+[  734.036588] init: starting service 'vendor.vehicle-hal-2.0'...
+[  734.053035] binder: undelivered death notification, b40000728a55f0f0
+[  734.091790] type=1400 audit(1608520199.655:6864): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  734.109580] type=1400 audit(1608520199.655:6865): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  734.127054] type=1400 audit(1608520199.655:6866): avc: denied { read } for comm="Binder:25239_2" name="u:object_r:boot_status_prop:s0" dev="tmpfs" ino=13108 scontext=u:r:hal_vehicle_default:s0 tcontext=u:object_r:boot_status_prop:s0 tclass=file permissive=0
+[  734.192125] type=1400 audit(1608520199.755:6867): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  734.292375] type=1400 audit(1608520199.855:6868): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  734.392354] init: Untracked pid 25285 exited with status 0
+[  734.392388] audit: audit_lost=3414 audit_rate_limit=5 audit_backlog_limit=64
+[  734.398042] init: Untracked pid 25289 exited with status 0
+[  734.405059] audit: rate limit exceeded
+[  734.422594] init: starting service 'can-hal-1.0-service'...
+[  734.474737] init: Untracked pid 25298 exited with status 0
+[  734.480711] init: Untracked pid 25300 exited with status 0
+[  734.487447] init: processing action (boot.car_service_created=1) from (/system/etc/init/com.android.car.procfsinspector.rc:7)
+[  734.499032] init: processing action (boot.car_service_created=1) from (/system/etc/init/init.bootstat.car.rc:6)
+[  734.510619] init: starting service 'exec 393 (/system/bin/bootstat -r car_service_created)'...
+[  734.518558] logd: logdr: UID=1054 GID=1000 PID=25336 n tail=50 logMask=8 pid=25302 start=0ns deadline=0ns
+[  734.521210] init: SVC_EXEC service 'exec 393 (/system/bin/bootstat -r car_service_created)' pid 25344 (uid 1000 gid 1007+0 context default) started; waiting...
+[  734.541189] logd: logdr: UID=1054 GID=1000 PID=25336 n tail=50 logMask=1 pid=25302 start=0ns deadline=0ns
+[  734.551524] init: Service 'exec 393 (/system/bin/bootstat -r car_service_created)' (pid 25344) exited with status 0 waiting took 0.030000 seconds
+[  734.566555] init: Sending signal 9 to service 'exec 393 (/system/bin/bootstat -r car_service_created)' (pid 25344) process group...
+[  734.572420] logd: logdr: UID=1054 GID=1000 PID=25336 n tail=0 logMask=8 pid=25302 start=0ns deadline=0ns
+[  734.578764] libprocessgroup: Successfully killed process cgroup uid 1000 pid 25344 in 0ms
+[  734.597230] logd: logdr: UID=1054 GID=1000 PID=25336 n tail=0 logMask=1 pid=25302 start=0ns deadline=0ns
+[  734.617076] init: Service 'can-hal-1.0-service' (pid 25302) received signal 6
+[  734.624518] init: Sending signal 9 to service 'can-hal-1.0-service' (pid 25302) process group...
+[  734.633692] libprocessgroup: Successfully killed process cgroup uid 1054 pid 25302 in 0ms
+[  734.643031] init: Untracked pid 25339 exited with status 0
+[  734.648846] init: Untracked pid 25336 exited with status 0
+[  734.654499] init: Untracked pid 25342 exited with status 0
+[  734.660169] init: Untracked pid 25335 exited with status 0
+[  734.665826] init: Untracked pid 25357 exited with status 0
+[  734.671584] init: Untracked pid 25361 exited with status 0
+[  734.698572] init: Untracked pid 25366 exited with status 0
+[  734.704248] init: Untracked pid 25368 exited with status 0
+[  734.721600] init: Untracked pid 25373 exited with status 0
+[  734.727249] init: Untracked pid 25376 exited with status 0
+[  735.132627] type=1400 audit(1608520200.691:6876): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  735.233759] type=1400 audit(1608520200.791:6877): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  735.279447] logd: logdr: UID=1002 GID=1002 PID=25374 n tail=50 logMask=8 pid=24623 start=0ns deadline=0ns
+[  735.312383] logd: logdr: UID=1002 GID=1002 PID=25374 n tail=50 logMask=1 pid=24623 start=0ns deadline=0ns
+[  735.329032] type=1400 audit(1608520200.891:6878): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  735.429516] type=1400 audit(1608520200.991:6879): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  735.530212] type=1400 audit(1608520201.091:6880): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  735.630511] audit: audit_lost=3421 audit_rate_limit=5 audit_backlog_limit=64
+[  735.637974] audit: rate limit exceeded
+[  735.639958] logd: logdr: UID=1002 GID=1002 PID=25374 n tail=0 logMask=8 pid=24623 start=0ns deadline=0ns
+[  735.668328] logd: logdr: UID=1002 GID=1002 PID=25374 n tail=0 logMask=1 pid=24623 start=0ns deadline=0ns
+[  735.736713] init: Untracked pid 25374 exited with status 0
+[  735.757822] init: Untracked pid 25378 exited with status 0
+[  735.798386] binder: send failed reply for transaction 555344 to 396:24722
+[  735.977727] logd: logdr: UID=1002 GID=1002 PID=25389 n tail=50 logMask=8 pid=396 start=0ns deadline=0ns
+[  736.010320] logd: logdr: UID=1002 GID=1002 PID=25389 n tail=50 logMask=1 pid=396 start=0ns deadline=0ns
+[  736.041719] logd: logdr: UID=1002 GID=1002 PID=25389 n tail=0 logMask=8 pid=396 start=0ns deadline=0ns
+[  736.069395] logd: logdr: UID=1002 GID=1002 PID=25389 n tail=0 logMask=1 pid=396 start=0ns deadline=0ns
+[  736.094302] binder: undelivered death notification, b40000704a5ea430
+[  736.094626] init: Untracked pid 25389 exited with status 0
+[  736.106646] init: Service 'btlinux-1.1' (pid 396) received signal 6
+[  736.113051] init: Sending signal 9 to service 'btlinux-1.1' (pid 396) process group...
+[  736.121490] libprocessgroup: Successfully killed process cgroup uid 1002 pid 396 in 0ms
+[  736.131101] init: Untracked pid 25391 exited with status 0
+[  736.137984] init: Untracked pid 25396 exited with status 0
+[  736.144199] init: Untracked pid 25394 exited with status 0
+[  736.151738] type=1400 audit(1608520201.715:6886): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  736.151946] init: starting service 'btlinux-1.1'...
+[  736.176752] init: Untracked pid 25405 exited with status 0
+[  736.182442] init: Untracked pid 25403 exited with status 0
+[  736.224486] init: Untracked pid 25409 exited with status 0
+[  736.230184] init: Untracked pid 25411 exited with status 0
+[  736.251988] type=1400 audit(1608520201.815:6887): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  736.352303] type=1400 audit(1608520201.915:6888): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  736.353912] init: Untracked pid 25414 exited with status 0
+[  736.375127] init: Untracked pid 25416 exited with status 0
+[  736.430674] init: Untracked pid 25419 exited with status 0
+[  736.438959] init: Untracked pid 25421 exited with status 0
+[  736.451864] binder_transaction: 36 callbacks suppressed
+[  736.451869] binder: 25239:25239 transaction failed 29201/-1, size 176-0 line 3133
+[  736.452805] type=1400 audit(1608520202.015:6889): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  736.467982] init: Untracked pid 25424 exited with status 0
+[  736.488582] init: Untracked pid 25426 exited with status 0
+[  736.560443] binder: 25239:25239 transaction failed 29201/-1, size 176-0 line 3133
+[  736.560886] type=1400 audit(1608520202.123:6890): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  736.614002] init: Untracked pid 25429 exited with status 0
+[  736.619701] init: Untracked pid 25431 exited with status 0
+[  736.668984] audit: audit_lost=3426 audit_rate_limit=5 audit_backlog_limit=64
+[  736.676179] audit: rate limit exceeded
+[  736.680323] binder: 25239:25239 transaction failed 29201/-1, size 176-0 line 3133
+[  736.680613] init: Untracked pid 25434 exited with status 0
+[  736.693799] init: Untracked pid 25436 exited with status 0
+[  736.788360] binder: 25239:25239 transaction failed 29201/-1, size 176-0 line 3133
+[  736.896296] binder: 25239:25239 transaction failed 29201/-1, size 176-0 line 3133
+[  737.004151] binder: 25239:25239 transaction failed 29201/-1, size 176-0 line 3133
+[  737.057057] init: Untracked pid 25478 exited with status 0
+[  737.063009] init: Untracked pid 25480 exited with status 0
+[  737.112160] binder: 25239:25239 transaction failed 29201/-1, size 176-0 line 3133
+[  737.145706] Bluetooth: hci0: setting up wcn3990
+[  737.222445] binder: 25239:25239 transaction failed 29201/-1, size 176-0 line 3133
+[  737.223577] type=1400 audit(1608520202.783:6896): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  737.319254] Bluetooth: hci0: QCA controller version 0x02140201
+[  737.325266] Bluetooth: hci0: QCA Downloading qca/crbtfw21.tlv
+[  737.331399] binder: 25239:25239 transaction failed 29201/-1, size 176-0 line 3133
+[  737.332545] type=1400 audit(1608520202.895:6897): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  737.439777] binder: 25239:25239 transaction failed 29201/-1, size 176-0 line 3133
+[  737.440240] type=1400 audit(1608520203.003:6898): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  737.549245] type=1400 audit(1608520203.111:6899): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  737.649267] type=1400 audit(1608520203.211:6900): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  737.749159] audit: audit_lost=3431 audit_rate_limit=5 audit_backlog_limit=64
+[  737.756432] audit: rate limit exceeded
+[  738.264246] type=1400 audit(1608520203.827:6906): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  738.364467] type=1400 audit(1608520203.927:6907): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  738.464860] type=1400 audit(1608520204.027:6908): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  738.565222] type=1400 audit(1608520204.127:6909): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  738.665578] type=1400 audit(1608520204.227:6910): avc: denied { call } for comm="Binder:25239_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  738.766096] audit: audit_lost=3436 audit_rate_limit=5 audit_backlog_limit=64
+[  738.773296] audit: rate limit exceeded
+[  739.246035] logd: logdr: UID=1054 GID=1000 PID=25490 n tail=50 logMask=8 pid=25239 start=0ns deadline=0ns
+[  739.270636] logd: logdr: UID=1054 GID=1000 PID=25490 n tail=50 logMask=1 pid=25239 start=0ns deadline=0ns
+[  739.295241] Bluetooth: hci0: command 0xfc00 tx timeout
+[  739.310823] logd: logdr: UID=1054 GID=1000 PID=25490 n tail=0 logMask=8 pid=25239 start=0ns deadline=0ns
+[  739.333525] logd: logdr: UID=1054 GID=1000 PID=25490 n tail=0 logMask=1 pid=25239 start=0ns deadline=0ns
+[  739.365329] init: Untracked pid 25492 exited with status 0
+[  739.371732] init: Service 'vendor.vehicle-hal-2.0' (pid 25239) received signal 6
+[  739.402575] init: Sending signal 9 to service 'vendor.vehicle-hal-2.0' (pid 25239) process group...
+[  739.428447] libprocessgroup: Successfully killed process cgroup uid 1054 pid 25239 in 0ms
+[  739.445133] binder: undelivered death notification, b40000728a55f0f0
+[  739.454577] init: Untracked pid 25490 exited with status 0
+[  739.461959] init: starting service 'can-hal-1.0-service'...
+[  739.506604] Bluetooth: hci0: QCA Downloading qca/crnv21.bin
+[  739.513047] init: starting service 'vendor.vehicle-hal-2.0'...
+[  739.541157] type=1400 audit(1608520205.103:6916): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  739.549239] Bluetooth: hci0: QCA setup on UART is completed
+[  739.558580] type=1400 audit(1608520205.103:6917): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  739.563954] debugfs: Directory 'ibs' with parent 'hci0' already present!
+[  739.564071] logd: logdr: UID=1054 GID=1000 PID=25521 n tail=50 logMask=8 pid=25498 start=0ns deadline=0ns
+[  739.573221] logd: logdr: UID=1054 GID=1000 PID=25521 n tail=50 logMask=1 pid=25498 start=0ns deadline=0ns
+[  739.587903] type=1400 audit(1608520205.103:6918): avc: denied { read } for comm="Binder:25508_2" name="u:object_r:boot_status_prop:s0" dev="tmpfs" ino=13108 scontext=u:r:hal_vehicle_default:s0 tcontext=u:object_r:boot_status_prop:s0 tclass=file permissive=0
+[  739.588281] logd: logdr: UID=1054 GID=1000 PID=25521 n tail=0 logMask=8 pid=25498 start=0ns deadline=0ns
+[  739.597060] logd: logdr: UID=1054 GID=1000 PID=25521 n tail=0 logMask=1 pid=25498 start=0ns deadline=0ns
+[  739.650570] type=1400 audit(1608520205.203:6919): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  739.683544] init: Untracked pid 25521 exited with status 0
+[  739.689234] init: Service 'can-hal-1.0-service' (pid 25498) received signal 6
+[  739.696505] init: Sending signal 9 to service 'can-hal-1.0-service' (pid 25498) process group...
+[  739.705607] libprocessgroup: Successfully killed process cgroup uid 1054 pid 25498 in 0ms
+[  739.715082] init: Untracked pid 25525 exited with status 0
+[  739.742233] type=1400 audit(1608520205.303:6920): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  739.793984] init: Untracked pid 25558 exited with status 0
+[  739.799843] init: Untracked pid 25562 exited with status 0
+[  739.841916] audit: audit_lost=3441 audit_rate_limit=5 audit_backlog_limit=64
+[  739.849073] audit: rate limit exceeded
+[  739.864678] init: Untracked pid 25570 exited with status 0
+[  739.870378] init: Untracked pid 25572 exited with status 0
+[  739.894537] init: Untracked pid 25575 exited with status 0
+[  739.900587] init: Untracked pid 25577 exited with status 0
+[  739.907498] init: processing action (boot.car_service_created=1) from (/system/etc/init/com.android.car.procfsinspector.rc:7)
+[  739.919183] init: processing action (boot.car_service_created=1) from (/system/etc/init/init.bootstat.car.rc:6)
+[  739.929853] init: starting service 'exec 394 (/system/bin/bootstat -r car_service_created)'...
+[  739.940301] init: SVC_EXEC service 'exec 394 (/system/bin/bootstat -r car_service_created)' pid 25586 (uid 1000 gid 1007+0 context default) started; waiting...
+[  739.954831] init: Untracked pid 25583 exited with status 0
+[  739.960469] init: Untracked pid 25585 exited with status 0
+[  739.966093] init: Service 'exec 394 (/system/bin/bootstat -r car_service_created)' (pid 25586) exited with status 0 waiting took 0.026000 seconds
+[  739.979273] init: Sending signal 9 to service 'exec 394 (/system/bin/bootstat -r car_service_created)' (pid 25586) process group...
+[  739.991410] libprocessgroup: Successfully killed process cgroup uid 1000 pid 25586 in 0ms
+[  739.999953] init: Untracked pid 25591 exited with status 0
+[  740.005571] init: Untracked pid 25589 exited with status 0
+[  740.329580] init: Untracked pid 25605 exited with status 0
+[  740.335230] init: Untracked pid 25607 exited with status 0
+[  740.373601] init: Untracked pid 25610 exited with status 0
+[  740.379309] init: Untracked pid 25612 exited with status 0
+[  740.429181] init: Untracked pid 25615 exited with status 0
+[  740.434930] init: Untracked pid 25617 exited with status 0
+[  740.500326] init: Untracked pid 25620 exited with status 0
+[  740.506315] init: Untracked pid 25622 exited with status 0
+[  740.557103] type=1400 audit(1608520206.119:6928): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  740.657388] type=1400 audit(1608520206.219:6929): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  740.665592] init: Untracked pid 25625 exited with status 0
+[  740.680714] init: Untracked pid 25627 exited with status 0
+[  740.736312] init: Untracked pid 25630 exited with status 0
+[  740.744649] init: Untracked pid 25632 exited with status 0
+[  740.757844] type=1400 audit(1608520206.319:6930): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  740.823698] init: Untracked pid 25635 exited with status 0
+[  740.839776] init: Untracked pid 25637 exited with status 0
+[  740.858669] type=1400 audit(1608520206.419:6931): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  740.898049] init: Untracked pid 25640 exited with status 0
+[  740.904584] init: Untracked pid 25642 exited with status 0
+[  740.953456] init: Untracked pid 25646 exited with status 0
+[  740.959416] init: Untracked pid 25648 exited with status 0
+[  740.959496] type=1400 audit(1608520206.523:6932): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  741.058829] audit: audit_lost=3448 audit_rate_limit=5 audit_backlog_limit=64
+[  741.070544] audit: rate limit exceeded
+[  741.476128] binder_transaction: 37 callbacks suppressed
+[  741.476147] binder: 25508:25508 transaction failed 29201/-1, size 176-0 line 3133
+[  741.487542] logd: logdr: UID=1002 GID=1002 PID=25653 n tail=50 logMask=8 pid=25437 start=0ns deadline=0ns
+[  741.525323] logd: logdr: UID=1002 GID=1002 PID=25653 n tail=50 logMask=1 pid=25437 start=0ns deadline=0ns
+[  741.589884] binder: 25508:25508 transaction failed 29201/-1, size 176-0 line 3133
+[  741.590161] type=1400 audit(1608520207.151:6938): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  741.698035] binder: 25508:25508 transaction failed 29201/-1, size 176-0 line 3133
+[  741.698648] type=1400 audit(1608520207.259:6939): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  741.772980] logd: logdr: UID=1002 GID=1002 PID=25653 n tail=0 logMask=8 pid=25437 start=0ns deadline=0ns
+[  741.795982] logd: logdr: UID=1002 GID=1002 PID=25653 n tail=0 logMask=1 pid=25437 start=0ns deadline=0ns
+[  741.806596] binder: 25508:25508 transaction failed 29201/-1, size 176-0 line 3133
+[  741.807365] type=1400 audit(1608520207.371:6940): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  741.857461] init: Untracked pid 25653 exited with status 0
+[  741.881516] init: Untracked pid 25656 exited with status 0
+[  741.888661] init: Untracked pid 25659 exited with status 0
+[  741.915938] binder: 25508:25508 transaction failed 29201/-1, size 176-0 line 3133
+[  741.916340] type=1400 audit(1608520207.479:6941): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  741.951954] init: Untracked pid 25661 exited with status 0
+[  741.955170] binder: send failed reply for transaction 562331 to 25406:25540
+[  742.007657] logd: logdr: UID=1002 GID=1002 PID=25674 n tail=50 logMask=8 pid=25406 start=0ns deadline=0ns
+[  742.023938] binder: 25508:25508 transaction failed 29201/-1, size 176-0 line 3133
+[  742.024109] type=1400 audit(1608520207.587:6942): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  742.043905] logd: logdr: UID=1002 GID=1002 PID=25674 n tail=50 logMask=1 pid=25406 start=0ns deadline=0ns
+[  742.079371] logd: logdr: UID=1002 GID=1002 PID=25674 n tail=0 logMask=8 pid=25406 start=0ns deadline=0ns
+[  742.099415] logd: logdr: UID=1002 GID=1002 PID=25674 n tail=0 logMask=1 pid=25406 start=0ns deadline=0ns
+[  742.121460] init: Untracked pid 25674 exited with status 0
+[  742.122093] binder: undelivered death notification, b4000072bf816640
+[  742.127130] init: Service 'btlinux-1.1' (pid 25406) received signal 6
+[  742.131863] audit: audit_lost=3453 audit_rate_limit=5 audit_backlog_limit=64
+[  742.131870] audit: rate limit exceeded
+[  742.131890] binder: 25508:25508 transaction failed 29201/-1, size 176-0 line 3133
+[  742.158568] init: Sending signal 9 to service 'btlinux-1.1' (pid 25406) process group...
+[  742.167162] libprocessgroup: Successfully killed process cgroup uid 1002 pid 25406 in 0ms
+[  742.176833] init: Untracked pid 25676 exited with status 0
+[  742.183545] init: starting service 'btlinux-1.1'...
+[  742.232430] binder: 25508:25508 transaction failed 29201/-1, size 176-0 line 3133
+[  742.340808] binder: 25508:25508 transaction failed 29201/-1, size 176-0 line 3133
+[  742.449162] binder: 25508:25508 transaction failed 29201/-1, size 176-0 line 3133
+[  742.658859] type=1400 audit(1608520208.223:6948): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  742.759503] type=1400 audit(1608520208.323:6949): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  742.860403] type=1400 audit(1608520208.427:6950): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  742.961090] type=1400 audit(1608520208.527:6951): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  743.061983] type=1400 audit(1608520208.623:6952): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  743.161974] audit: audit_lost=3458 audit_rate_limit=5 audit_backlog_limit=64
+[  743.169192] audit: rate limit exceeded
+[  743.683833] type=1400 audit(1608520209.247:6958): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  743.784102] type=1400 audit(1608520209.347:6959): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  743.884511] type=1400 audit(1608520209.447:6960): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  743.987447] type=1400 audit(1608520209.547:6961): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  744.086187] type=1400 audit(1608520209.647:6962): avc: denied { call } for comm="Binder:25508_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  744.185608] audit: audit_lost=3463 audit_rate_limit=5 audit_backlog_limit=64
+[  744.193187] audit: rate limit exceeded
+[  744.504974] init: starting service 'can-hal-1.0-service'...
+[  744.552796] logd: logdr: UID=1054 GID=1000 PID=25724 n tail=50 logMask=8 pid=25715 start=0ns deadline=0ns
+[  744.561864] Bluetooth: hci0: setting up wcn3990
+[  744.575472] logd: logdr: UID=1054 GID=1000 PID=25724 n tail=50 logMask=1 pid=25715 start=0ns deadline=0ns
+[  744.604719] logd: logdr: UID=1054 GID=1000 PID=25724 n tail=0 logMask=8 pid=25715 start=0ns deadline=0ns
+[  744.624248] logd: logdr: UID=1054 GID=1000 PID=25724 n tail=0 logMask=1 pid=25715 start=0ns deadline=0ns
+[  744.646774] init: Service 'can-hal-1.0-service' (pid 25715) received signal 6
+[  744.654056] init: Sending signal 9 to service 'can-hal-1.0-service' (pid 25715) process group...
+[  744.663171] libprocessgroup: Successfully killed process cgroup uid 1054 pid 25715 in 0ms
+[  744.671606] init: process with updatable components 'can-hal-1.0-service' exited 4 times in 4 minutes
+[  744.682067] init: Untracked pid 25724 exited with status 0
+[  744.687716] init: Untracked pid 25726 exited with status 0
+[  744.693573] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  744.700605] logd: logdr: UID=1054 GID=1000 PID=25736 n tail=50 logMask=8 pid=25508 start=0ns deadline=0ns
+[  744.704599] init: starting service 'exec 395 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  744.725015] init: SVC_EXEC service 'exec 395 (/system/bin/flags_health_check UPDATABLE_CRASHING)' pid 25742 (uid 1000 gid 1000+0 context default) started; waiting...
+[  744.726926] logd: logdr: UID=1054 GID=1000 PID=25736 n tail=50 logMask=1 pid=25508 start=0ns deadline=0ns
+[  744.731609] Bluetooth: hci0: QCA controller version 0x02140201
+[  744.731613] Bluetooth: hci0: QCA Downloading qca/crbtfw21.tlv
+[  744.740106] init: Service 'exec 395 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 25742) exited with status 0 waiting took 0.015000 seconds
+[  744.775028] init: Sending signal 9 to service 'exec 395 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 25742) process group...
+[  744.787702] libprocessgroup: Successfully killed process cgroup uid 1000 pid 25742 in 0ms
+[  744.793931] logd: logdr: UID=1054 GID=1000 PID=25736 n tail=0 logMask=8 pid=25508 start=0ns deadline=0ns
+[  744.818494] logd: logdr: UID=1054 GID=1000 PID=25736 n tail=0 logMask=1 pid=25508 start=0ns deadline=0ns
+[  744.851372] init: Untracked pid 25736 exited with status 0
+[  744.857000] init: Untracked pid 25739 exited with status 0
+[  744.862601] init: Service 'vendor.vehicle-hal-2.0' (pid 25508) received signal 6
+[  744.870085] init: Sending signal 9 to service 'vendor.vehicle-hal-2.0' (pid 25508) process group...
+[  744.879437] libprocessgroup: Successfully killed process cgroup uid 1054 pid 25508 in 0ms
+[  744.890137] init: starting service 'vendor.vehicle-hal-2.0'...
+[  744.916639] type=1400 audit(1608520210.479:6968): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  744.934240] type=1400 audit(1608520210.479:6969): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  744.934805] binder: undelivered death notification, b40000728a561c40
+[  744.953229] type=1400 audit(1608520210.479:6970): avc: denied { read } for comm="Binder:25747_2" name="u:object_r:boot_status_prop:s0" dev="tmpfs" ino=13108 scontext=u:r:hal_vehicle_default:s0 tcontext=u:object_r:boot_status_prop:s0 tclass=file permissive=0
+[  745.017054] type=1400 audit(1608520210.579:6971): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  745.035113] binder: undelivered transaction 563433, process died.
+[  745.041304] binder: undelivered transaction 563436, process died.
+[  745.047461] binder: undelivered transaction 563438, process died.
+[  745.117160] type=1400 audit(1608520210.679:6972): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  745.217045] audit: audit_lost=3468 audit_rate_limit=5 audit_backlog_limit=64
+[  745.224172] audit: rate limit exceeded
+[  745.261837] Bluetooth: hci0: QCA Failed to send TLV segment (-4)
+[  745.267968] Bluetooth: hci0: QCA Failed to download patch (-4)
+[  745.294160] init: Untracked pid 25790 exited with status 0
+[  745.299902] init: Untracked pid 25793 exited with status 0
+[  745.327750] init: Untracked pid 25801 exited with status 0
+[  745.333568] init: Untracked pid 25804 exited with status 0
+[  745.381472] init: Untracked pid 25811 exited with status 0
+[  745.387168] init: Untracked pid 25814 exited with status 0
+[  745.419155] init: processing action (boot.car_service_created=1) from (/system/etc/init/com.android.car.procfsinspector.rc:7)
+[  745.430640] init: processing action (boot.car_service_created=1) from (/system/etc/init/init.bootstat.car.rc:6)
+[  745.441385] init: starting service 'exec 396 (/system/bin/bootstat -r car_service_created)'...
+[  745.451969] init: SVC_EXEC service 'exec 396 (/system/bin/bootstat -r car_service_created)' pid 25836 (uid 1000 gid 1007+0 context default) started; waiting...
+[  745.475122] init: Service 'exec 396 (/system/bin/bootstat -r car_service_created)' (pid 25836) exited with status 0 waiting took 0.023000 seconds
+[  745.488686] init: Sending signal 9 to service 'exec 396 (/system/bin/bootstat -r car_service_created)' (pid 25836) process group...
+[  745.501078] libprocessgroup: Successfully killed process cgroup uid 1000 pid 25836 in 0ms
+[  745.521975] logd: logdr: UID=1002 GID=1002 PID=25810 n tail=50 logMask=8 pid=25682 start=0ns deadline=0ns
+[  745.552676] logd: logdr: UID=1002 GID=1002 PID=25810 n tail=50 logMask=1 pid=25682 start=0ns deadline=0ns
+[  745.711730] logd: logdr: UID=1002 GID=1002 PID=25810 n tail=0 logMask=8 pid=25682 start=0ns deadline=0ns
+[  745.737048] logd: logdr: UID=1002 GID=1002 PID=25810 n tail=0 logMask=1 pid=25682 start=0ns deadline=0ns
+[  745.769847] init: Untracked pid 25818 exited with status 0
+[  745.775514] init: Untracked pid 25820 exited with status 0
+[  745.786095] init: Untracked pid 25810 exited with status 0
+[  745.796563] init: Untracked pid 25815 exited with status 0
+[  745.816705] init: Untracked pid 25856 exited with status 0
+[  745.822894] init: Untracked pid 25858 exited with status 0
+[  745.829055] binder: release 25682:25730 transaction 563559 in, still active
+[  745.836160] binder: release 25682:25730 transaction 563392 out, still active
+[  745.844237] binder: send failed reply for transaction 563559 to 25681:25681
+[  745.852729] binder: send failed reply for transaction 563392, target dead
+[  745.868453] init: Untracked pid 25861 exited with status 0
+[  745.874121] init: Untracked pid 25863 exited with status 0
+[  745.878172] logd: logdr: UID=1002 GID=1002 PID=25867 n tail=50 logMask=8 pid=25681 start=0ns deadline=0ns
+[  745.912176] logd: logdr: UID=1002 GID=1002 PID=25867 n tail=50 logMask=1 pid=25681 start=0ns deadline=0ns
+[  745.943048] type=1400 audit(1608520211.503:6981): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  745.948423] logd: logdr: UID=1002 GID=1002 PID=25867 n tail=0 logMask=8 pid=25681 start=0ns deadline=0ns
+[  745.981262] logd: logdr: UID=1002 GID=1002 PID=25867 n tail=0 logMask=1 pid=25681 start=0ns deadline=0ns
+[  746.004619] init: Untracked pid 25867 exited with status 0
+[  746.004931] binder: undelivered death notification, b4000077c42ce770
+[  746.010306] init: Untracked pid 25869 exited with status 0
+[  746.022284] init: Service 'btlinux-1.1' (pid 25681) received signal 6
+[  746.028838] init: Sending signal 9 to service 'btlinux-1.1' (pid 25681) process group...
+[  746.037300] libprocessgroup: Successfully killed process cgroup uid 1002 pid 25681 in 0ms
+[  746.043242] type=1400 audit(1608520211.607:6982): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  746.144092] type=1400 audit(1608520211.707:6983): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  746.244905] type=1400 audit(1608520211.807:6984): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  746.345835] type=1400 audit(1608520211.907:6985): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  746.445984] audit: audit_lost=3476 audit_rate_limit=5 audit_backlog_limit=64
+[  746.453128] audit: rate limit exceeded
+[  746.479960] init: Untracked pid 25876 exited with status 0
+[  746.485673] init: Untracked pid 25878 exited with status 0
+[  746.534363] init: Untracked pid 25881 exited with status 0
+[  746.540082] init: Untracked pid 25883 exited with status 0
+[  746.557361] binder_transaction: 39 callbacks suppressed
+[  746.557365] binder: 25747:25747 transaction failed 29201/-1, size 176-0 line 3133
+[  746.597962] init: Untracked pid 25886 exited with status 0
+[  746.607427] init: Untracked pid 25888 exited with status 0
+[  746.677399] binder: 25747:25747 transaction failed 29201/-1, size 176-0 line 3133
+[  746.719017] Bluetooth: hci0: command tx timeout
+[  746.735769] init: Untracked pid 25891 exited with status 0
+[  746.741745] init: Untracked pid 25893 exited with status 0
+[  746.787759] binder: 25747:25747 transaction failed 29201/-1, size 176-0 line 3133
+[  746.790557] init: Untracked pid 25896 exited with status 0
+[  746.801769] init: Untracked pid 25898 exited with status 0
+[  746.843272] init: Untracked pid 25901 exited with status 0
+[  746.849082] init: Untracked pid 25903 exited with status 0
+[  746.895836] binder: 25747:25747 transaction failed 29201/-1, size 176-0 line 3133
+[  746.935432] init: Untracked pid 25928 exited with status 0
+[  746.941172] init: Untracked pid 25930 exited with status 0
+[  747.002785] init: Untracked pid 25933 exited with status 0
+[  747.004150] binder: 25747:25747 transaction failed 29201/-1, size 176-0 line 3133
+[  747.004372] type=1400 audit(1608520212.567:6991): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  747.008443] init: Untracked pid 25935 exited with status 0
+[  747.116706] binder: 25747:25747 transaction failed 29201/-1, size 176-0 line 3133
+[  747.116910] type=1400 audit(1608520212.679:6992): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  747.191815] init: starting service 'btlinux-1.1'...
+[  747.224657] binder: 25747:25747 transaction failed 29201/-1, size 176-0 line 3133
+[  747.224999] type=1400 audit(1608520212.787:6993): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  747.332858] binder: 25747:25747 transaction failed 29201/-1, size 176-0 line 3133
+[  747.333253] type=1400 audit(1608520212.899:6994): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  747.439920] init: Untracked pid 25956 exited with status 0
+[  747.441058] binder: 25747:25747 transaction failed 29201/-1, size 176-0 line 3133
+[  747.445836] type=1400 audit(1608520213.003:6995): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  747.445897] init: Untracked pid 25958 exited with status 0
+[  747.555114] audit: audit_lost=3481 audit_rate_limit=5 audit_backlog_limit=64
+[  747.557671] Bluetooth: hci0: setting up wcn3990
+[  747.562288] audit: rate limit exceeded
+[  747.570713] binder: 25747:25747 transaction failed 29201/-1, size 176-0 line 3133
+[  747.731407] Bluetooth: hci0: QCA controller version 0x02140201
+[  747.737361] Bluetooth: hci0: QCA Downloading qca/crbtfw21.tlv
+[  748.080722] type=1400 audit(1608520213.643:7001): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  748.181282] type=1400 audit(1608520213.743:7002): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  748.281683] type=1400 audit(1608520213.843:7003): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  748.382029] type=1400 audit(1608520213.943:7004): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  748.482447] type=1400 audit(1608520214.043:7005): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  748.582490] audit: audit_lost=3486 audit_rate_limit=5 audit_backlog_limit=64
+[  748.589713] audit: rate limit exceeded
+[  748.650518] Bluetooth: hci0: QCA Downloading qca/crnv21.bin
+[  748.704551] Bluetooth: hci0: QCA setup on UART is completed
+[  748.710284] debugfs: Directory 'ibs' with parent 'hci0' already present!
+[  749.096498] type=1400 audit(1608520214.659:7011): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  749.196819] type=1400 audit(1608520214.759:7012): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  749.297173] type=1400 audit(1608520214.859:7013): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  749.397957] type=1400 audit(1608520214.959:7014): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  749.498568] type=1400 audit(1608520215.059:7015): avc: denied { call } for comm="Binder:25747_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  749.514763] init: starting service 'can-hal-1.0-service'...
+[  749.586906] logd: logdr: UID=1054 GID=1000 PID=25971 n tail=50 logMask=8 pid=25968 start=0ns deadline=0ns
+[  749.598384] audit: audit_lost=3491 audit_rate_limit=5 audit_backlog_limit=64
+[  749.605734] audit: rate limit exceeded
+[  749.610911] logd: logdr: UID=1054 GID=1000 PID=25971 n tail=50 logMask=1 pid=25968 start=0ns deadline=0ns
+[  749.639843] logd: logdr: UID=1054 GID=1000 PID=25971 n tail=0 logMask=8 pid=25968 start=0ns deadline=0ns
+[  749.662255] logd: logdr: UID=1054 GID=1000 PID=25971 n tail=0 logMask=1 pid=25968 start=0ns deadline=0ns
+[  749.687082] init: Service 'can-hal-1.0-service' (pid 25968) received signal 6
+[  749.694384] init: Sending signal 9 to service 'can-hal-1.0-service' (pid 25968) process group...
+[  749.703493] libprocessgroup: Successfully killed process cgroup uid 1054 pid 25968 in 0ms
+[  749.711957] init: process with updatable components 'can-hal-1.0-service' exited 4 times in 4 minutes
+[  749.722419] init: Untracked pid 25971 exited with status 0
+[  749.728104] init: Untracked pid 25973 exited with status 0
+[  749.733925] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  749.744894] init: starting service 'exec 397 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  749.756084] init: SVC_EXEC service 'exec 397 (/system/bin/flags_health_check UPDATABLE_CRASHING)' pid 25978 (uid 1000 gid 1000+0 context default) started; waiting...
+[  749.771157] init: Service 'exec 397 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 25978) exited with status 0 waiting took 0.015000 seconds
+[  749.784862] init: Sending signal 9 to service 'exec 397 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 25978) process group...
+[  749.797502] libprocessgroup: Successfully killed process cgroup uid 1000 pid 25978 in 0ms
+[  750.057217] logd: logdr: UID=1054 GID=1000 PID=25981 n tail=50 logMask=8 pid=25747 start=0ns deadline=0ns
+[  750.080013] logd: logdr: UID=1054 GID=1000 PID=25981 n tail=50 logMask=1 pid=25747 start=0ns deadline=0ns
+[  750.118287] logd: logdr: UID=1054 GID=1000 PID=25981 n tail=0 logMask=8 pid=25747 start=0ns deadline=0ns
+[  750.141808] logd: logdr: UID=1054 GID=1000 PID=25981 n tail=0 logMask=1 pid=25747 start=0ns deadline=0ns
+[  750.169327] init: Untracked pid 25981 exited with status 0
+[  750.174956] init: Service 'vendor.vehicle-hal-2.0' (pid 25747) received signal 6
+[  750.182454] init: Sending signal 9 to service 'vendor.vehicle-hal-2.0' (pid 25747) process group...
+[  750.191802] libprocessgroup: Successfully killed process cgroup uid 1054 pid 25747 in 0ms
+[  750.201391] init: Untracked pid 25983 exited with status 0
+[  750.207593] init: starting service 'vendor.vehicle-hal-2.0'...
+[  750.236159] type=1400 audit(1608520215.799:7021): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  750.253523] type=1400 audit(1608520215.799:7022): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  750.270765] type=1400 audit(1608520215.799:7023): avc: denied { read } for comm="Binder:25989_2" name="u:object_r:boot_status_prop:s0" dev="tmpfs" ino=13108 scontext=u:r:hal_vehicle_default:s0 tcontext=u:object_r:boot_status_prop:s0 tclass=file permissive=0
+[  750.271983] binder: undelivered death notification, b40000728a562690
+[  750.338798] type=1400 audit(1608520215.899:7024): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  750.436957] type=1400 audit(1608520215.999:7025): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  750.637334] audit: audit_lost=3497 audit_rate_limit=5 audit_backlog_limit=64
+[  750.644513] audit: rate limit exceeded
+[  750.681363] init: Untracked pid 26038 exited with status 0
+[  750.687342] init: Untracked pid 26040 exited with status 0
+[  750.709237] init: Untracked pid 26046 exited with status 0
+[  750.714895] init: Untracked pid 26049 exited with status 0
+[  750.770076] init: Untracked pid 26056 exited with status 0
+[  750.775744] init: Untracked pid 26058 exited with status 0
+[  750.787133] init: Untracked pid 26061 exited with status 0
+[  750.792856] init: Untracked pid 26063 exited with status 0
+[  750.807010] init: processing action (boot.car_service_created=1) from (/system/etc/init/com.android.car.procfsinspector.rc:7)
+[  750.818561] init: Untracked pid 26067 exited with status 0
+[  750.824412] init: Untracked pid 26069 exited with status 0
+[  750.830295] init: processing action (boot.car_service_created=1) from (/system/etc/init/init.bootstat.car.rc:6)
+[  750.841005] init: starting service 'exec 398 (/system/bin/bootstat -r car_service_created)'...
+[  750.851493] init: SVC_EXEC service 'exec 398 (/system/bin/bootstat -r car_service_created)' pid 26096 (uid 1000 gid 1007+0 context default) started; waiting...
+[  750.866149] init: Service 'exec 398 (/system/bin/bootstat -r car_service_created)' (pid 26096) exited with status 0 waiting took 0.015000 seconds
+[  750.879370] init: Sending signal 9 to service 'exec 398 (/system/bin/bootstat -r car_service_created)' (pid 26096) process group...
+[  750.891512] libprocessgroup: Successfully killed process cgroup uid 1000 pid 26096 in 0ms
+[  750.900013] init: Untracked pid 26093 exited with status 0
+[  750.905614] init: Untracked pid 26085 exited with status 0
+[  751.204895] init: Untracked pid 26104 exited with status 0
+[  751.210557] init: Untracked pid 26106 exited with status 0
+[  751.249915] type=1400 audit(1608520216.811:7034): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  751.266509] init: Untracked pid 26110 exited with status 0
+[  751.272641] init: Untracked pid 26112 exited with status 0
+[  751.350782] type=1400 audit(1608520216.911:7035): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  751.365932] init: Untracked pid 26117 exited with status 0
+[  751.373725] init: Untracked pid 26123 exited with status 0
+[  751.450719] type=1400 audit(1608520217.011:7036): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  751.534026] logd: logdr: UID=1002 GID=1002 PID=26121 n tail=50 logMask=8 pid=25904 start=0ns deadline=0ns
+[  751.552285] type=1400 audit(1608520217.115:7037): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  751.567824] logd: logdr: UID=1002 GID=1002 PID=26121 n tail=50 logMask=1 pid=25904 start=0ns deadline=0ns
+[  751.650981] binder_transaction: 39 callbacks suppressed
+[  751.650992] binder: 25989:25989 transaction failed 29201/-1, size 176-0 line 3133
+[  751.652048] type=1400 audit(1608520217.215:7038): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  751.757760] audit: audit_lost=3504 audit_rate_limit=5 audit_backlog_limit=64
+[  751.764961] audit: rate limit exceeded
+[  751.769201] binder: 25989:25989 transaction failed 29201/-1, size 176-0 line 3133
+[  751.807978] logd: logdr: UID=1002 GID=1002 PID=26121 n tail=0 logMask=8 pid=25904 start=0ns deadline=0ns
+[  751.835539] logd: logdr: UID=1002 GID=1002 PID=26121 n tail=0 logMask=1 pid=25904 start=0ns deadline=0ns
+[  751.878939] binder: 25989:25989 transaction failed 29201/-1, size 176-0 line 3133
+[  751.900233] init: Untracked pid 26121 exited with status 0
+[  751.912037] init: Untracked pid 26127 exited with status 0
+[  751.917989] init: Untracked pid 26130 exited with status 0
+[  751.924606] init: Untracked pid 26132 exited with status 0
+[  751.981245] init: Untracked pid 26142 exited with status 0
+[  751.989224] init: Untracked pid 26144 exited with status 0
+[  751.996464] binder: 25989:25989 transaction failed 29201/-1, size 176-0 line 3133
+[  752.041318] init: Untracked pid 26148 exited with status 0
+[  752.047002] init: Untracked pid 26150 exited with status 0
+[  752.104884] binder: 25989:25989 transaction failed 29201/-1, size 176-0 line 3133
+[  752.138049] init: Untracked pid 26153 exited with status 0
+[  752.144244] init: Untracked pid 26155 exited with status 0
+[  752.191531] init: Untracked pid 26158 exited with status 0
+[  752.197300] init: Untracked pid 26160 exited with status 0
+[  752.213079] binder: 25989:25989 transaction failed 29201/-1, size 176-0 line 3133
+[  752.322389] binder: 25989:25989 transaction failed 29201/-1, size 176-0 line 3133
+[  752.322912] type=1400 audit(1608520217.883:7044): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  752.430665] binder: 25989:25989 transaction failed 29201/-1, size 176-0 line 3133
+[  752.430958] type=1400 audit(1608520217.995:7045): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  752.539298] binder: 25989:25989 transaction failed 29201/-1, size 176-0 line 3133
+[  752.539641] type=1400 audit(1608520218.103:7046): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  752.647383] binder: 25989:25989 transaction failed 29201/-1, size 176-0 line 3133
+[  752.647790] type=1400 audit(1608520218.211:7047): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  752.744933] init: Untracked pid 26163 exited with status 0
+[  752.752266] init: Untracked pid 26165 exited with status 0
+[  752.756686] type=1400 audit(1608520218.319:7048): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  752.856492] audit: audit_lost=3509 audit_rate_limit=5 audit_backlog_limit=64
+[  752.863955] audit: rate limit exceeded
+[  753.373524] type=1400 audit(1608520218.935:7054): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  753.428821] Bluetooth: hci0: setting up wcn3990
+[  753.473985] type=1400 audit(1608520219.035:7055): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  753.574487] type=1400 audit(1608520219.135:7056): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  753.607960] Bluetooth: hci0: QCA controller version 0x02140201
+[  753.613935] Bluetooth: hci0: QCA Downloading qca/crbtfw21.tlv
+[  753.674970] type=1400 audit(1608520219.235:7057): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  753.775415] type=1400 audit(1608520219.339:7058): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  753.875276] audit: audit_lost=3514 audit_rate_limit=5 audit_backlog_limit=64
+[  753.882692] audit: rate limit exceeded
+[  754.389743] type=1400 audit(1608520219.951:7064): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  754.490457] type=1400 audit(1608520220.051:7065): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  754.531547] init: starting service 'can-hal-1.0-service'...
+[  754.538626] Bluetooth: hci0: QCA Downloading qca/crnv21.bin
+[  754.585753] logd: logdr: UID=1054 GID=1000 PID=26216 n tail=50 logMask=8 pid=26213 start=0ns deadline=0ns
+[  754.593885] Bluetooth: hci0: QCA setup on UART is completed
+[  754.595792] type=1400 audit(1608520220.151:7066): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  754.601177] debugfs: Directory 'ibs' with parent 'hci0' already present!
+[  754.632618] logd: logdr: UID=1054 GID=1000 PID=26216 n tail=50 logMask=1 pid=26213 start=0ns deadline=0ns
+[  754.659555] logd: logdr: UID=1054 GID=1000 PID=26216 n tail=0 logMask=8 pid=26213 start=0ns deadline=0ns
+[  754.681692] logd: logdr: UID=1054 GID=1000 PID=26216 n tail=0 logMask=1 pid=26213 start=0ns deadline=0ns
+[  754.691826] type=1400 audit(1608520220.259:7067): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  754.705759] init: Untracked pid 26216 exited with status 0
+[  754.714879] init: Service 'can-hal-1.0-service' (pid 26213) received signal 6
+[  754.725942] init: Sending signal 9 to service 'can-hal-1.0-service' (pid 26213) process group...
+[  754.735940] libprocessgroup: Successfully killed process cgroup uid 1054 pid 26213 in 0ms
+[  754.744679] init: process with updatable components 'can-hal-1.0-service' exited 4 times in 4 minutes
+[  754.756232] init: Untracked pid 26218 exited with status 0
+[  754.763081] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  754.776620] init: starting service 'exec 399 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  754.791966] type=1400 audit(1608520220.355:7068): avc: denied { call } for comm="Binder:25989_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  754.793004] init: SVC_EXEC service 'exec 399 (/system/bin/flags_health_check UPDATABLE_CRASHING)' pid 26227 (uid 1000 gid 1000+0 context default) started; waiting...
+[  754.824464] init: Service 'exec 399 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 26227) exited with status 0 waiting took 0.032000 seconds
+[  754.838231] init: Sending signal 9 to service 'exec 399 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 26227) process group...
+[  754.850965] libprocessgroup: Successfully killed process cgroup uid 1000 pid 26227 in 0ms
+[  754.892215] audit: audit_lost=3519 audit_rate_limit=5 audit_backlog_limit=64
+[  754.899496] audit: rate limit exceeded
+[  755.443126] logd: logdr: UID=1054 GID=1000 PID=26237 n tail=50 logMask=8 pid=25989 start=0ns deadline=0ns
+[  755.466107] logd: logdr: UID=1054 GID=1000 PID=26237 n tail=50 logMask=1 pid=25989 start=0ns deadline=0ns
+[  755.505431] logd: logdr: UID=1054 GID=1000 PID=26237 n tail=0 logMask=8 pid=25989 start=0ns deadline=0ns
+[  755.530487] logd: logdr: UID=1054 GID=1000 PID=26237 n tail=0 logMask=1 pid=25989 start=0ns deadline=0ns
+[  755.556589] init: Untracked pid 26237 exited with status 0
+[  755.562244] init: Untracked pid 26239 exited with status 0
+[  755.567876] init: Service 'vendor.vehicle-hal-2.0' (pid 25989) received signal 6
+[  755.575376] init: Sending signal 9 to service 'vendor.vehicle-hal-2.0' (pid 25989) process group...
+[  755.585094] libprocessgroup: Successfully killed process cgroup uid 1054 pid 25989 in 0ms
+[  755.593703] init: process with updatable components 'vendor.vehicle-hal-2.0' exited 4 times in 4 minutes
+[  755.594251] binder: undelivered death notification, b40000728a560b10
+[  755.611215] init: processing action (sys.init.updatable_crashing=1) from (/system/etc/init/flags_health_check.rc:10)
+[  755.622817] init: starting service 'exec 400 (/system/bin/flags_health_check UPDATABLE_CRASHING)'...
+[  755.643395] init: SVC_EXEC service 'exec 400 (/system/bin/flags_health_check UPDATABLE_CRASHING)' pid 26246 (uid 1000 gid 1000+0 context default) started; waiting...
+[  755.659052] init: starting service 'vendor.vehicle-hal-2.0'...
+[  755.668006] init: Service 'exec 400 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 26246) exited with status 0 waiting took 0.032000 seconds
+[  755.681733] init: Sending signal 9 to service 'exec 400 (/system/bin/flags_health_check UPDATABLE_CRASHING)' (pid 26246) process group...
+[  755.684112] type=1400 audit(1608520221.247:7074): avc: denied { call } for comm="Binder:26258_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  755.694383] libprocessgroup: Successfully killed process cgroup uid 1000 pid 26246 in 0ms
+[  755.711528] type=1400 audit(1608520221.247:7075): avc: denied { call } for comm="Binder:26258_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  755.737203] type=1400 audit(1608520221.247:7076): avc: denied { read } for comm="Binder:26258_2" name="u:object_r:boot_status_prop:s0" dev="tmpfs" ino=13108 scontext=u:r:hal_vehicle_default:s0 tcontext=u:object_r:boot_status_prop:s0 tclass=file permissive=0
+[  755.784915] type=1400 audit(1608520221.347:7077): avc: denied { call } for comm="Binder:26258_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  755.885152] type=1400 audit(1608520221.447:7078): avc: denied { call } for comm="Binder:26258_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  755.935865] init: Untracked pid 26291 exited with status 0
+[  755.941535] init: Untracked pid 26293 exited with status 0
+[  755.966257] init: Untracked pid 26300 exited with status 0
+[  755.971913] init: Untracked pid 26304 exited with status 0
+[  755.985169] audit: audit_lost=3524 audit_rate_limit=5 audit_backlog_limit=64
+[  755.992310] audit: rate limit exceeded
+[  756.017026] init: Untracked pid 26308 exited with status 0
+[  756.022689] init: Untracked pid 26310 exited with status 0
+[  756.035731] init: Untracked pid 26313 exited with status 0
+[  756.041410] init: Untracked pid 26316 exited with status 0
+[  756.047231] init: processing action (boot.car_service_created=1) from (/system/etc/init/com.android.car.procfsinspector.rc:7)
+[  756.058717] init: processing action (boot.car_service_created=1) from (/system/etc/init/init.bootstat.car.rc:6)
+[  756.069453] init: starting service 'exec 401 (/system/bin/bootstat -r car_service_created)'...
+[  756.080080] init: SVC_EXEC service 'exec 401 (/system/bin/bootstat -r car_service_created)' pid 26338 (uid 1000 gid 1007+0 context default) started; waiting...
+[  756.094863] init: Untracked pid 26323 exited with status 0
+[  756.100576] init: Untracked pid 26321 exited with status 0
+[  756.106221] init: Service 'exec 401 (/system/bin/bootstat -r car_service_created)' (pid 26338) exited with status 0 waiting took 0.026000 seconds
+[  756.119385] init: Sending signal 9 to service 'exec 401 (/system/bin/bootstat -r car_service_created)' (pid 26338) process group...
+[  756.131519] libprocessgroup: Successfully killed process cgroup uid 1000 pid 26338 in 0ms
+[  756.140043] init: Untracked pid 26332 exited with status 0
+[  756.145657] init: Untracked pid 26347 exited with status 0
+[  756.507198] init: Untracked pid 26357 exited with status 0
+[  756.512866] init: Untracked pid 26359 exited with status 0
+[  756.555608] init: Untracked pid 26362 exited with status 0
+[  756.561334] init: Untracked pid 26364 exited with status 0
+[  756.623981] init: Untracked pid 26367 exited with status 0
+[  756.629666] init: Untracked pid 26369 exited with status 0
+[  756.701446] binder_transaction: 37 callbacks suppressed
+[  756.701460] binder: 26258:26258 transaction failed 29201/-1, size 176-0 line 3133
+[  756.707420] type=1400 audit(1608520222.263:7086): avc: denied { call } for comm="Binder:26258_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  756.789301] init: Untracked pid 26372 exited with status 0
+[  756.798614] init: Untracked pid 26374 exited with status 0
+[  756.814808] binder: 26258:26258 transaction failed 29201/-1, size 176-0 line 3133
+[  756.815364] type=1400 audit(1608520222.379:7087): avc: denied { call } for comm="Binder:26258_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  756.884030] init: Untracked pid 26377 exited with status 0
+[  756.890906] init: Untracked pid 26379 exited with status 0
+[  756.921037] init: Untracked pid 26382 exited with status 0
+[  756.923021] binder: 26258:26258 transaction failed 29201/-1, size 176-0 line 3133
+[  756.923388] type=1400 audit(1608520222.487:7088): avc: denied { call } for comm="Binder:26258_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  756.928357] init: Untracked pid 26384 exited with status 0
+[  757.039591] binder: 26258:26258 transaction failed 29201/-1, size 176-0 line 3133
+[  757.039919] type=1400 audit(1608520222.603:7089): avc: denied { call } for comm="Binder:26258_2" scontext=u:r:hal_vehicle_default:s0 tcontext=u:r:servicemanager:s0 tclass=binder permissive=0
+[  757.046720] init: Untracked pid 26387 exited with status 0
+[  757.047858] init: Untracked pid 26389 exited with status 0
+[  757
